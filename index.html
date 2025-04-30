@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RawGlo Luxury Tallow Cream</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        body {
+            background-image: url('Mother-of-Pearl-Swirl.jpg'), linear-gradient(135deg, #fffff0 0%, #e6e6e6 100%);
+            background-size: cover, cover;
+            background-repeat: no-repeat;
+            background-blend-mode: overlay;
+            background-attachment: fixed;
+        }
+        .bg-tiffany-blue {
+            background-color: #81D8D0;
+        }
+        .bg-preorder-red {
+            background-color: #fb4d4c;
+        }
+        .wave-container {
+            overflow: hidden;
+            position: relative;
+            background: none;
+        }
+        .wave-svg {
+            width: 100%;
+            height: 250px;
+            display: block;
+        }
+        .wave-text {
+            fill: white;
+            font-size: 3rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <div class="bg-preorder-red text-white text-center py-1 text-sm">
+        🎉 Launch Sale | Free Shipping LIMITED TIME 🎉
+    </div>
+<header class="bg-tiffany-blue py-6 text-center">
+    <img src="RawGlo-01.png" alt="RawGlo Logo" class="mx-auto mb-4 h-56 w-auto">
+    
+    <nav class="mt-4">
+        <ul class="flex justify-center space-x-8">
+            <li><a href="#" class="text-white font-semibold border-b-2 border-white pb-1">Shop</a></li>
+            <li><a href="#" class="text-white font-semibold hover:border-b-2 hover:border-white pb-1">Affiliate</a></li>
+            <li><a href="#" class="text-white font-semibold hover:border-b-2 hover:border-white pb-1">FAQ</a></li>
+            <li><a href="#" class="text-white font-semibold hover:border-b-2 hover:border-white pb-1">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="container mx-auto px-6 py-10">
+    <div class="flex flex-col md:flex-row items-center justify-center">
+        <div class="md:w-1/2 flex justify-center">
+            <img src="PHOTO-2025-04-25-13-30-27.jpg" alt="RawGlo Product Packaging" class="rounded-2xl shadow-2xl w-full max-w-md">
+        </div>
+
+        <div class="md:w-1/2 md:ml-12 mt-8 md:mt-0 text-center md:text-left">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">RawGlo Tallow Anti-Aging Cream, 2oz, Natural Face Cream, Moisturizer, Body Lotion, Skin Care and Sun Protection</h2>
+            <ul class="list-disc list-inside text-lg text-gray-700 mb-8">
+                <li>Grass-fed & grass-finished tallow</li>
+                <li>Infused with green tea, calendula, and aloe vera</li>
+                <li>Combats aging, restores elasticity</li>
+                <li>Protects against sun damage and nourishes deeply</li>
+            </ul>
+
+            <button onclick="location.href='#preorder'" class="bg-preorder-red text-white px-8 py-4 rounded-full shadow-lg hover:bg-red-400 transition duration-300 font-semibold">
+                Pre-Order Now
+            </button>
+
+            <div class="space-y-4 mt-8 text-left">
+                <div class="border rounded-lg overflow-hidden bg-white shadow text-sm">
+                    <button onclick="toggleAccordion('ingredients')" class="flex items-center justify-between w-full p-4 font-semibold text-gray-700">
+                        <span class="flex items-center gap-2"><i data-feather='leaf'></i> Our All-Natural Ingredients</span>
+                        <span>+</span>
+                    </button>
+                    <div id="ingredients" class="hidden p-4 text-gray-600">
+                        Grass-fed Beef Tallow, Beeswax, Green Tea Extract, Pot Marigold Flower extract, Aloe Vera, Olive Oil, Vitamin E
+                    </div>
+                </div>
+                <div class="border rounded-lg overflow-hidden bg-white shadow text-sm">
+                    <button onclick="toggleAccordion('description')" class="flex items-center justify-between w-full p-4 font-semibold text-gray-700">
+                        <span class="flex items-center gap-2"><i data-feather='file-text'></i> Product Description</span>
+                        <span>+</span>
+                    </button>
+                    <div id="description" class="hidden p-4 text-gray-600">
+                        A luxurious face and body cream designed to nourish, protect, and restore your natural glow using 100% natural ingredients.
+                    </div>
+                </div>
+                <div class="border rounded-lg overflow-hidden bg-white shadow text-sm">
+                    <button onclick="toggleAccordion('shipping')" class="flex items-center justify-between w-full p-4 font-semibold text-gray-700">
+                        <span class="flex items-center gap-2"><i data-feather='box'></i> Shipping Information</span>
+                        <span>+</span>
+                    </button>
+                    <div id="shipping" class="hidden p-4 text-gray-600">
+                        Enjoy FREE FAST SHIPPING when pre-ordering!
+                    </div>
+                </div>
+                <div class="border rounded-lg overflow-hidden bg-white shadow text-sm">
+                    <button onclick="toggleAccordion('faq')" class="flex items-center justify-between w-full p-4 font-semibold text-gray-700">
+                        <span class="flex items-center gap-2"><i data-feather='help-circle'></i> Frequently Asked Questions</span>
+                        <span>+</span>
+                    </button>
+                    <div id="faq" class="hidden p-4 text-gray-600">
+                        <p class="font-bold mt-4">Why RawGlo Tallow?</p>
+                        <p class="mt-2">Before the invention of toxic skincare, ancient communities like ancient Egyptians and Cleopatra would use <strong>NATURAL</strong> fats like tallow on their face.</p>
+                        <p class="mt-2">Tallow is scientifically proven to be one of the best fats; <strong>A</strong>, <strong>E</strong>, <strong>D</strong>, <strong>K</strong>, and very high in fatty acids that protect skin (PMCID: PMC7019988).</p>
+                        <p class="mt-2">We combine that with green tea extract which promotes skin elasticity and decreases wrinkles (PMID: 34965006), while adding protection from the sun to keep your skin youthful (PMID: 26815913).</p>
+                        <p class="mt-2">Along with Pot Marigold Extract for its anti-aging and wound healing properties (PMCID: PMC5776915) since ancient times.</p>
+                        <p class="mt-2">What you get is the best possible all-natural skin cream out there to keep you looking youthful.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="preorder" class="bg-tiffany-blue py-20">
+  <div class="wave-container">
+    <svg viewBox="0 0 1200 200" preserveAspectRatio="none" class="wave-svg">
+      <defs>
+        <path id="wavePath" d="M0,100 C200,40 400,160 600,100 C800,40 1000,160 1200,100" />
+      </defs>
+      <path d="M0,100 C200,40 400,160 600,100 C800,40 1000,160 1200,100 L1200,150 C1000,210 800,90 600,150 C400,210 200,90 0,150 Z" fill="#fb4d4c" />
+      <text>
+        <textPath href="#wavePath" startOffset="0%" class="wave-text">
+          <animate attributeName="startOffset" from="-100%" to="100%" dur="70s" repeatCount="indefinite" />
+          NO PRESERVATIVES • NO CHEMICALS • NO BS • NO PRESERVATIVES • NO CHEMICALS • NO BS • NO PRESERVATIVES • NO CHEMICALS • NO BS • NO PRESERVATIVES • NO CHEMICALS • NO BS • NO PRESERVATIVES • NO CHEMICALS • NO BS • NO PRESERVATIVES • NO CHEMICALS • NO BS • NO PRESERVATIVES • NO CHEMICALS • NO BS •NO PRESERVATIVES • NO CHEMICALS • NO BS • NO PRESERVATIVES • NO CHEMICALS • NO BS • NO PRESERVATIVES • NO CHEMICALS • NO BS • NO PRESERVATIVES • NO CHEMICALS • NO BS • NO PRESERVATIVES • NO CHEMICALS • NO BS • NO PRESERVATIVES • NO CHEMICALS • NO BS • NO PRESERVATIVES • NO CHEMICALS • NO BS •
+        </textPath>
+      </text>
+    </svg>
+  </div>
+    <div class="container mx-auto px-6 text-center bg-white rounded-3xl shadow-2xl py-16 max-w-2xl" id="preorder-form">
+        <h2 class="text-4xl font-bold text-gray-800 mb-6">Reserve Your Jar Today!</h2>
+        <p class="text-lg text-gray-600 mb-10">Indulge in a natural, radiant glow. Limited quantities available!</p>
+
+        <form onsubmit="showThankYou(event)" class="flex flex-col items-center gap-6">
+            <input type="email" placeholder="Enter your email" class="border border-gray-300 px-6 py-4 rounded-full w-full focus:outline-none focus:ring-2 focus:ring-tiffany-blue text-lg" required>
+            <button type="submit" class="bg-preorder-red text-white font-bold px-12 py-4 rounded-full shadow-md hover:bg-red-400 transition duration-300 text-lg">
+                Submit Pre-Order
+            </button>
+        </form>
+    </div>
+</section>
+
+<footer class="bg-gray-100 py-6 text-center text-sm text-gray-600">
+    © 2025 RawGlo. All rights reserved.
+</footer>
+
+<script>
+    feather.replace();
+    function toggleAccordion(id) {
+        const content = document.getElementById(id);
+        content.classList.toggle('hidden');
+    }
+    function showThankYou(event) {
+        event.preventDefault();
+        document.getElementById('preorder-form').innerHTML = `
+            <div class="text-center">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Thank You Beautiful!</h2>
+                <p class="text-lg text-gray-600 mb-6">Your spot is reserved. You're one step closer to glowing, radiant skin ✨</p>
+                <p class="text-md text-gray-500">We'll email you when your RawGlo jar is ready to ship.</p>
+            </div>
+        `;
+    }
+</script>
+</body>
+</html>
